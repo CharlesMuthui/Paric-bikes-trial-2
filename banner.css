@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid purple; */
+    
+}
+:root{
+    --main-color:#ff7a00;
+    --text-color:#000000;
+    --second-text-color:#ffffff;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+span{
+    color: var(--main-color);
+}
+section{
+    height: 100vh;
+    width: 100%;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 1.5rem;
+} 
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+-----------------
+    header
+---------------
+ */
+
+
+.header{
+    height: 4rem;
+    z-index: 30;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 3px -2px black;
+    justify-content: space-around;
+    background-color: var(--second-text-color);
+   
+}
+.logo{
+    width: 20%;
+    color: var(--text-color);
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.Navbar a{
+    
+    color:var(--text-color);
+    margin-right: .3rem;
+    background-color: #ffffff;
+    border: 1px solid white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+#navbar{
+    width: 40%;
+    display: none;
+    flex-direction: column;
+    margin-top: 10rem;
+  /*   margin-left: 30%; */
+    background-color: var(--main-color);
+    width: 30%;
+    padding: 1rem;
+    gap: 10px;
+}
+.hamburger{
+    margin-left: -10rem;
+}
+.btn{
+    background-color: var(--main-color);
+    color: var(--second-text-color);
+    padding: 0rem 1rem;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    margin-right: 1rem;
+}
+#closebtn{
+    display: none;
+}
+
+
+/*
+-----------------
+ Landing 
+---------------
+ */
+
+
+.landing-page{
+    display: flex;
+    width: 100%;
+}
+
+.content{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.content *{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}
+.img img{
+   
+   width: 90%;
+}
+
+
+
+/* -------------
+Sections
+------------- */
+
+/*  --------------------------
+    common divs
+    ---------- ----------
+    */
+
+.secheader{
+    display:flex;
+    justify-content: space-between;
+    width: 97%;
+    margin-left:auto ;
+    margin-right:auto ;
+    color: var(--main-color);
+}
+.header-title{
+    display: flex;
+    font-size: 60px;
+    color: black;
+    justify-content: space-between;
+}
+.header-title *{
+    margin-left: 1rem;
+}
+.secimages{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+/*
+-----------------
+ About Us 
+---------------
+ */
+.about-body{
+    display: flex;
+    margin-top: 1rem;
+}
+.about-content{
+    width: 60%;
+    margin-left: 10px;
+    
+}
+.about-content *{
+    margin-top: 2rem;
+}
+
+ /*
+-----------------
+Testimonial
+---------------
+ */
+
+#testimonials {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    max-width: 600px;
+}
+
+.testimonial-content p {
+    margin: 0 0 10px;
+    color: #555;
+    font-style: italic;
+}
+
+.testimonial-content h4 {
+    margin: 0;
+    color: #333;
+}
+ /*
+-----------------
+ Services
+---------------
+ */
+ .services-body{
+    display: flex;
+    gap: 20px;
+ }
+
+.services-content{
+    width: 60%;
+
+}
+.services-content *{
+    margin-top: 1.5rem;
+}
+.bike-Images {
+    width: 30%;
+}
+.bike-rental , .mountain-hikes{
+    display: flex;
+    gap: 10px;
+}
+.serviceimage{
+    width: 30%;
+}
+
+
+
+
+/*
+-----------------
+ Offers 
+---------------
+ */
+
+
+
+
+/*
+-----------------
+ contact Us 
+---------------
+ */
+
+ .contact-body{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .form-content{
+    width: 70%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+
+
+ .form-content *{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .form-content textarea{
+    border: none;
+    background-color: #beb9b9;
+    color: var(--second-text-color);
+ }
+ .customer-info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 20px;
+ }
+
+
+ .contact-body input{
+    border: none;
+    background-color: #beb9b9;
+    height: 2rem;
+ }
+ .contact-btn{
+    width: 40%;
+ }
+ iframe{
+    height: 60vh;
+ }
+
+
+ /*
+-----------------
+ Footer
+---------------
+ */
+
+ #footer{
+    background-color: var(--text-color);
+    color: white;
+    height: 60%;
+    gap: 20px;
+    width: 100%;
+ }
+ #footer hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .main-container {
+    padding: 1rem;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 60% 20% 20%;
+}
+.main-container *{
+    margin: .5rem;
+    color:#b3b3b3;
+}
+.main-container a{
+    color: var(--main-color);
+}
+ .footer-container{
+    display: flex;
+    flex-direction: column;
+ }
+ .links{
+    display: flex;
+ }
+ .copyright{
+    text-align: center;
+ }
+ .copyright a{
+    color:var(--main-color);
+ }
+
+

@@ -1,0 +1,111 @@
+
+/*980px Small Desktop Design*/
+
+@media screen and (max-width:980px) {
+   
+    section, div  {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    section{
+        margin-top: 2rem;
+    }
+    #testimonials{
+        margin-top: 3rem;
+    }
+    
+    /*
+    ------------------------
+    Landing Page
+    ------------------------
+    */
+
+    .img img{
+       width: 80%;
+    }
+    
+    
+  
+}
+
+@media screen and (max-width:680px){
+  
+  .header{
+    width: 100%;
+  }
+    .secimages{
+        display: none;
+    }
+    .about-content, .services-content{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    iframe{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    *
+    section{
+        height: auto;
+       margin-top: 1.5rem;
+    }
+    .secheader h1{
+        font-size: 1.8rem;
+    }
+    .services-content h2{
+        font-size: 1.4rem;
+    }
+    .logo{
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .landing-page{
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        
+        width:100% ;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-page *{
+        width: 100%;
+        
+    }
+    .img{
+        margin-top:22% ;
+        height: 50%;
+    }
+    .content{
+        margin: 0;
+    }
+    #get-started{
+        width: 50%;
+    }
+    iframe{
+       width: 100vw;
+       border: 1px solid gray;
+       height: 90vh;
+       
+    }
+    #footer{
+        height: 30vh;
+    }
+    .footer-container{
+        display: none;
+        flex-direction: column;
+       
+     }
+}
+
+
+
+
